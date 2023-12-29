@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "instaparser"
+version = "0.1.0"
+description = ""
+authors = ["Kirill Nerush <nerush.kirill@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+pytz = "^2023.3.post1"
+pydantic-settings = "^2.1.0"
+sqlalchemy = "^2.0.23"
+alembic = "^1.13.1"
+psycopg2 = "^2.9.9"
+asyncpg = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
